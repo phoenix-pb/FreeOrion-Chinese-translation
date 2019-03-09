@@ -95,7 +95,7 @@ NONE
 无
 
 RENAME
-更名
+重命名
 
 ENTER_NEW_NAME
 输入新名称
@@ -158,7 +158,7 @@ NEW_FLEET_NAME_NO_NUMBER
 # Name for a newly created monster-only fleet.
 # %1% represents a unique number.
 NEW_MONSTER_FLEET_NAME
-群 %1%
+异兽舰队 %1%
 
 # Name for a newly created colony-only fleet.
 # %1% represents a unique number.
@@ -173,18 +173,18 @@ NEW_RECON_FLEET_NAME
 # Name for a newly created troop carrier only fleet.
 # %1% represents a unique number.
 NEW_TROOP_FLEET_NAME
-Troop Fleet %1%
+登录舰队 %1%
 
 # Name for a newly created bomber only fleet.
 # %1% represents a unique number.
 NEW_BOMBARD_FLEET_NAME
-Bomber Fleet %1%
+轰炸舰队 %1%
 
 # Name for a newly created combat group group fleet. This includes battleships,
 # bombers and troop carriers.
 # %1% represents a unique number.
 NEW_BATTLE_FLEET_NAME
-Battle Fleet %1%
+攻击舰队 %1%
 
 # Name for a newly created planet.
 # Suffix bears some explanation:
@@ -204,37 +204,37 @@ NEW_ASTEROIDS_SUFFIX
 [[PT_ASTEROIDS]]
 
 EMPTY_SPACE
-Deep Space
+无人深空
 
 UNEXPLORED_REGION
-Unexplored Region
+未探索区域
 
 UNEXPLORED_SYSTEM
-Unexplored System
+未探索星系
 
 NOT_APPLICABLE
 N/A
 
 BOMBER
-Bomber
+轰炸机
 
 INTERCEPTOR
-Interceptor
+拦截机
 
 DEFAULT_EMPIRE_NAME
 人类帝国
 
 DEFAULT_PLAYER_NAME
-Human_Player
+人类玩家
 
 MONSTER
 怪兽
 
 PASSED
-<rgba 0 255 0 255>(PASSED)</rgba>
+<rgba 0 255 0 255>(通过)</rgba>
 
 FAILED
-<rgba 255 0 0 255>(FAILED)</rgba>
+<rgba 255 0 0 255>(失败)</rgba>
 
 ALL_OF
 All Of:
@@ -249,23 +249,23 @@ UNOWNED
 Unowned
 
 NOWHERE
-Cannot be produced
+不能生产
 
 # Prefix to use for menu items that will open a pedia entry
 POPUP_MENU_PEDIA_PREFIX
-'''Help: '''
+'''帮助: '''
 
 GENERAL
-General
+一般
 
 TEST
-Test
+测试
 
 BALANCE
-Balance
+平衡
 
 CONTENT
-Content
+内容
 
 
 ##
@@ -299,35 +299,31 @@ FORMAT_LIST_1_ITEMS
 %1% %2%.
 
 FORMAT_LIST_2_ITEMS
-%1% %2% and %3%.
+%1% %2% 和 %3%.
 
 FORMAT_LIST_3_ITEMS
-%1% %2%, %3% and %4%.
+%1% %2%, %3% 和 %4%.
 
 FORMAT_LIST_4_ITEMS
-%1% %2%, %3%, %4% and %5%.
+%1% %2%, %3%, %4% 和 %5%.
 
 FORMAT_LIST_5_ITEMS
-%1% %2%, %3%, %4%, %5% and %6%.
+%1% %2%, %3%, %4%, %5% 和 %6%.
 
 FORMAT_LIST_6_ITEMS
-%1% %2%, %3%, %4%, %5%, %6% and %7%.
+%1% %2%, %3%, %4%, %5%, %6% 和 %7%.
 
 FORMAT_LIST_7_ITEMS
-%1% %2%, %3%, %4%, %5%, %6%, %7% and %8%.
+%1% %2%, %3%, %4%, %5%, %6%, %7% 和 %8%.
 
 FORMAT_LIST_8_ITEMS
-%1% %2%, %3%, %4%, %5%, %6%, %7%, %8% and %9%.
+%1% %2%, %3%, %4%, %5%, %6%, %7%, %8% 和 %9%.
 
 FORMAT_LIST_9_ITEMS
-%1% %2%, %3%, %4%, %5%, %6%, %7%, %8%, %9% and %10%.
+%1% %2%, %3%, %4%, %5%, %6%, %7%, %8%, %9% 和 %10%.
 
 FORMAT_LIST_10_ITEMS
-<<<<<<< HEAD
 %1% %2%, %3%, %4%, %5%, %6%, %7%, %8%, %9%, %10% 和 %11%.
-=======
-%1% %2%, %3%, %4%, %5%, %6%, %7%, %8%, %9%, %10% and %11%.
->>>>>>> 4854db731cc0e04c59766236d932f621b323061b
 
 FORMAT_LIST_MANY_ITEMS
 %1% %2%, %3%, %4%, %5%, %6%, %7%, %8%, %9%, %10%, %11% ...
@@ -891,13 +887,13 @@ An accretion disc is a structure (often a circumstellar disc) formed by diffused
 ##
 
 FN_BATTLE_FLEET
-Battle Fleet
+攻击舰队
 
 FN_SCOUT_FLEET
-Scout Fleet
+侦查舰队
 
 FN_COLONY_FLEET
-Colony Fleet
+殖民舰队
 
 MONSTERS
 Monsters
@@ -908,13 +904,13 @@ Monsters
 ##
 
 RETURN_TO_INTRO
-Returning to Main Menu.
+正在返回主菜单.
 
 SERVER_WONT_START
 The server could not be started.
 
 SERVER_TIMEOUT
-The server is not responding.
+服务器无响应.
 
 SERVER_LOST
 The connection to the server has been lost.
@@ -926,12 +922,12 @@ PLAYER_DISCONNECTED
 Player %1% no longer has a connection to the server.
 
 SERVER_SAVE_INITIATE_ACK
-Saving...
+保存中...
 
 # %1% save game file path as requested by the client.
 # %2% save game file size in bytes.
 SERVER_SAVE_COMPLETE
-Saved %2% bytes to file: %1%
+%2% 字节保存至文件: %1%
 
 INVALID_CLIENT_SAVE_DATA_RECEIVED
 The server received invalid client save data. Some may be ignored.
@@ -964,10 +960,10 @@ SAVE_GAME_IN_PROGRESS
 正在保存游戏.
 
 ABORT_SAVE_AND_RESET
-Return to Main Menu without saving.
+返回主菜单(游戏未保存).
 
 ABORT_SAVE_AND_EXIT
-Exit FreeOrion without saving.
+退出FreeOrion(游戏未保存).
 
 EMPIRE_NOT_FOUND_CANT_HANDLE_ORDERS
 No empire is being controlled by this client; orders cannot be issued.
@@ -2172,7 +2168,7 @@ INTRO_BTN_EXIT
 退出游戏
 
 ERR_CONNECT_TIMED_OUT
-Timed out while attempting to connect to server
+连接服务器超时
 
 INTRO_CREDITS_LICENSE
 Released under
@@ -2201,7 +2197,7 @@ JOIN_GAME_BN
 Join a game as
 
 REFRESH_LIST_BN
-Refresh list
+刷新列表
 
 
 ##
@@ -2215,7 +2211,7 @@ AUTHENTICATION_DESC
 This player name requires authentication. Reminder! Password will be transfered plain-text.
 
 PASSWORD_LABEL
-Password
+密码
 
 
 ##
@@ -2306,7 +2302,7 @@ GSETUP_AGE
 银河年龄
 
 GSETUP_STARLANE_FREQ
-星港频率
+星路密度
 
 GSETUP_PLANET_DENSITY
 行星密度
@@ -2500,28 +2496,28 @@ SAVE_NATIVE_FREQ_TITLE
 <u>低级文明出现频率</u>
 
 SAVE_PLANET_FREQ_TITLE
-<u>Planet Frequency</u>
+<u>行星密度</u>
 
 SAVE_SPECIALS_FREQ_TITLE
-<u>Specials Frequency</u>
+<u>特殊事件频率</u>
 
 SAVE_STARLANE_FREQ_TITLE
-<u>Starlane Frequency</u>
+<u>星路密度</u>
 
 SAVE_GALAXY_SIZE_TITLE
-<u>Galaxy size</u>
+<u>银河尺寸</u>
 
 SAVE_GALAXY_SHAPE_TITLE
-<u>Galaxy Shape</u>
+<u>银河形状</u>
 
 SAVE_AI_AGGRESSION_TITLE
 <u>AI Aggression</u>
 
 SAVE_NUMBER_EMPIRES_TITLE
-<u>Empires</u>
+<u>帝国</u>
 
 SAVE_NUMBER_HUMANS_TITLE
-<u>Human Players</u>
+<u>人类玩家</u>
 
 SAVE_DIALOG_ROW_BROWSE_TEMPLATE
 '''
@@ -2679,7 +2675,7 @@ OPTIONS_SHOW_FPS
 显示FPS
 
 OPTIONS_LIMIT_FPS
-Limit FPS
+FPS限制
 
 OPTIONS_MAX_FPS
 最大FPS
@@ -2736,7 +2732,7 @@ OPTIONS_UI_SYSTEM_NAME_UNOWNED_COLOR
 Unowned system name color
 
 OPTIONS_FLEET_ICONS
-Fleet Icons
+舰队图标
 
 OPTIONS_UI_TINY_FLEET_BUTTON_MIN_ZOOM
 Tiny fleet icon minimum zoom
@@ -3148,7 +3144,7 @@ MAP_BTN_GRAPH_DESC
 ''''''
 
 MAP_BTN_PEDIA
-Pedia
+银河百科
 
 MAP_BTN_PEDIA_DESC
 ''''''
@@ -3422,7 +3418,7 @@ Present Since the Initial Turn
 ##
 
 ORDER_BUIDLING_SCRAP
-Scrap Building
+废弃建筑
 
 ORDER_CANCEL_BUIDLING_SCRAP
 Cancel Scrapping Building
@@ -3433,7 +3429,7 @@ Cancel Scrapping Building
 ##
 
 TT_THIS_TURN
-This Turn
+当前回合
 
 TT_NEXT_TURN
 Predicted Next Turn
@@ -3485,7 +3481,7 @@ TT_FIELD
 <i>%2%</i>
 
 TT_FIGHTER_LAUNCH
-Launching
+发射
 
 # %1% number of fighters
 # %2% damage per fighter
@@ -3500,26 +3496,26 @@ TT_N_OF_N
 
 # %1% combat round
 TT_COMBAT_ROUND
-Round %1%:
+回合 %1%:
 
 TT_UNKNOWN
-Unknown
+未知
 
 # %1% name of the species.
 TT_SPECIES_POPULATION
 %1% [[METER_POPULATION]]
 
 SP_RENAME_SYSTEM
-Rename System
+重命名星系
 
 SP_ENTER_NEW_SYSTEM_NAME
-Enter new system name
+输入新的星系名称
 
 SP_RENAME_PLANET
-Rename Planet
+重命名行星
 
 SP_ENTER_NEW_PLANET_NAME
-Enter new planet name
+输入新的行星名称
 
 SP_PLANET_SUITABILITY
 Planet Suitability
@@ -3531,19 +3527,19 @@ Planet Suitability
 
 # %1% system name where this fleet is holding.
 FW_FLEET_HOLDING_AT
-Holding at %1%
+驻扎在 %1%
 
 # %1% system name where this fleet is moving to.
 FW_FLEET_MOVING_TO
-Moving to %1%
+前往 %1%
 
 # %1% system name where this fleet is moving to.
 # %2% estiminated time in turns when the fleet will arrive.
 FW_FLEET_MOVING_TO_ETA
-Moving to %1% (ETA %2%)
+前往 %1% (ETA %2%)
 
 FW_FLEET_EXPLORING_REFUEL
-Waiting for Fuel
+等待燃料补给
 
 FW_FLEET_EXPLORING_WAITING
 Waiting for system to explore
@@ -3557,13 +3553,13 @@ FW_FLEET_EXPLORING_TO
 Exploring %1%
 
 FW_FLEET_ETA_NEVER
-Never
+永不
 
 FW_FLEET_ETA_UNKNOWN
-Unknown
+未知
 
 FW_FLEET_ETA_OUT_OF_RANGE
-Out of Range
+超出范围
 
 FW_AGGRESSIVE
 Control System
@@ -3578,13 +3574,13 @@ FW_PASSIVE_DESC
 Fleet will attempt to stay hidden; it will not blockade or initiate battle.
 
 FW_AUTO
-Automatic Aggression Selection
+自动攻击选项
 
 FW_AUTO_DESC
 Automatically select aggression for new fleet based on whether ships have weapons.
 
 FW_UNKNOWN_DESIGN_NAME
-Unknown Design
+未知设计
 
 # %1% name of the ship design that was used by this ship.
 # %2% name of the ship owning species.
@@ -3593,13 +3589,13 @@ FW_SPECIES_SHIP_DESIGN_LABEL
 
 # Displayed when creating a new fleet by dropping ships into the new fleet slot.
 FW_NEW_FLEET_LABEL
-<i>New Fleet</i>
+<i>新的舰队</i>
 
 # Fleet window title
 # %1% empire, which owns the fleets.
 # %2% system where those fleets hold.
 FW_EMPIRE_FLEETS_AT_SYSTEM
-%1% Fleets At %2%
+%1% 舰队位于 %2%
 
 # %1% empire, which owns the fleets.
 # %2% system where those fleets hold.
@@ -3609,16 +3605,16 @@ FW_EMPIRE_FLEETS_NEAR_SYSTEM
 # Fleet window title
 # %1% empire, which owns the fleets.
 FW_EMPIRE_FLEETS
-%1% Fleets
+%1% 舰队
 
 # Fleet window title
 FW_NO_FLEET
-No Fleet
+没有舰队
 
 # Fleet window title
 # %1% system where those fleets hold.
 FW_GENERIC_FLEETS_AT_SYSTEM
-Fleets At %1%
+舰队位于 %1%
 
 # Fleet window title
 # %1% system where those fleets hold.
@@ -3627,19 +3623,19 @@ Fleets Near %1%
 
 # Fleet window title
 FW_GENERIC_FLEETS
-Fleets
+舰队
 
 # the name that is used for fleets the client's player does not control but is
 # owned by an empire.
 # %1% empire name.
 FW_EMPIRE_FLEET
-%1% fleet
+%1% 舰队
 
 # the name that is used for ships the client's player does not control but is
 # owned by an empire.
 # %1% empire name.
 FW_EMPIRE_SHIP
-%1% ship
+%1% 舰船
 
 # the fleet name for fleets with an unknown owning empire.
 FW_FOREIGN
@@ -3730,19 +3726,19 @@ FW_FLEET_TRADE_SUMMARY
 Fleet Trade - Equal to the total trade output of ships in the fleet.
 
 FW_MERGE_SYSTEM_FLEETS
-Merge System Ships Into Fleet
+星系中的舰船合并至舰队
 
 FW_SPLIT_DAMAGED_FLEET
-Split Damaged Ships From Fleet
+从舰队中分离受损舰船
 
 FW_SPLIT_UNFUELED_FLEET
-Split Unfueled Ships From Fleet
+从舰队中分离无燃料舰船
 
 FW_SPLIT_NOT_FULL_FIGHTERS_FLEET
 Split Ships Without All Fighters From Fleet
 
 FW_SPLIT_FLEET
-Split Fleet
+舰队拆分
 
 FW_SPLIT_SHIPS_THIS_DESIGN
 Split This Design Ships From Fleet
@@ -3758,22 +3754,22 @@ FW_ORDER_DISMISS_SENSOR_GHOST_ALL
 Dismiss All Sensor Ghosts Here
 
 ORDER_SHIP_SCRAP
-Scrap Ship
+废弃舰船
 
 ORDER_FLEET_SCRAP
-Scrap Ships
+废弃舰船
 
 ORDER_CANCEL_SHIP_SCRAP
-Cancel Scrapping Ship
+取消废弃舰船
 
 ORDER_CANCEL_FLEET_SCRAP
-Cancel Scrapping Ships
+取消废弃舰船
 
 ORDER_FLEET_EXPLORE
-Explore
+探索
 
 ORDER_CANCEL_FLEET_EXPLORE
-Stop Exploring
+停止探索
 
 ORDER_GIVE_FLEET_TO_EMPIRE
 Give Fleet To...
@@ -3833,7 +3829,7 @@ Remove Starlane
 ##
 
 DIPLOMACY
-Diplomacy
+外交
 
 PEACE
 和平
@@ -3877,7 +3873,7 @@ END_ALLIANCE_DECLARATION
 ##
 
 TECH_DISPLAY
-Display
+显示
 
 # %1% amount of research points required to research the technology.
 # %2% number of turns required to research the technology.
@@ -4042,7 +4038,7 @@ PRODUCTION_WND_AVAILABILITY_OBSOLETE_AND_UNAVAILABLE
 不可用'''
 
 PRODUCTION_WND_REDUNDANT
-附件组件
+附加组件
 
 # %1% currently used amount of production points used per turn to build an item.
 # %2% maximum available amount of production points for this turn.
@@ -11050,7 +11046,7 @@ EXOBOT_SHORT_DESC
 Builds Exobot Citizens
 
 STARLANE_SPEED_SHORT_DESC
-增加星里速度
+增加星路航速
 
 CON_ORBITAL_CON
 行星环轨建设
@@ -11081,12 +11077,12 @@ CON_FRC_ENRG_CAMO_DESC
 Ordinary physical structures tend to be both opaque and rigid, being constructed from similarly opaque and rigid natural materials. A force field does not, of necessity, possess these features in any permanent sense, and can be turned on and off or changed from one color to another at will. While most buildings are easily visible far away with a powerful detection apparatus, a force-energy structure - or a regular structure surrounded by a series of camouflage force-fields - would be essentially invisible from great distances.'''
 
 CON_PLANET_DRIVE
-行星星道驱动器
+行星星路驱动器
 
 CON_PLANET_DRIVE_DESC
 '''帝国边境星系的行星经常处于被敌方舰队攻击的巨大危险中,
 但这些行星往往包含着极其宝贵的资源和特殊的资源.
-通过为整个行星装备打开星道及必要的导航设备,
+通过为整个行星装备打开星路及必要的导航设备,
 可以实现在需要时将这些行星转移到一个更安全的位置.'''
 
 CON_STARGATE
@@ -12393,7 +12389,7 @@ BLD_BLACK_HOLE_POW_GEN_DESC
 [[BUILDING_AVAILABLE_ON_OUTPOSTS]], but must be in a [[STAR_BLACK]] system.'''
 
 BLD_PLANET_DRIVE
-行星星道驱动器
+行星星路驱动器
 
 BLD_PLANET_DRIVE_DESC
 '''Allows a planet to move between star systems. An [[buildingtype BLD_LIGHTHOUSE]] is required within 200 uu of the target system to allow the planet to proceed safely. Otherwise, the planet will have a 50% chance of being destroyed in transit. This is a hazardous journey even if the planet survives however, and only half the population of a planet will live even with support from the interstellar lighthouse. [[BUILDING_AVAILABLE_ON_OUTPOSTS]], but cannot be used unless the planet is colonised.
@@ -12482,13 +12478,13 @@ Multiple copies in the same system do not stack.
 A power generator designed to harvest the energy of a [[PT_GASGIANT]].'''
 
 BLD_STARLANE_BORE
-星道开通
+星路开通
 
 BLD_STARLANE_BORE_DESC
 Generates a single new starlane to the nearest system that can be connected without crossing existing starlanes or passing too close to another system.
 
 BLD_STARLANE_NEXUS
-星道联结
+星路联结
 
 BLD_STARLANE_NEXUS_DESC
 Generates new starlanes to other star systems that can be connected without crossing existing starlanes or passing too close to another system.
@@ -16816,26 +16812,26 @@ Zone'''
 
 # Newline separated list of mammal-based ship names
 SHIP_NAME_MAMMALS
-'''Aardvark
-Aardwolf
-Agouti
-Alpaca
-Ape
-Armadillo
-Aye-Aye
-Babirusa
-Baboon
-Badger
-Bandicoot
-Bat
-Beaver
+'''土豚
+土狼
+刺鼠
+羊驼
+猿
+犰狳
+狐猿
+野猪
+狒狒
+獾
+袋狸
+蝙蝠
+海狸
 Boar
 Bobcat
 Bonobo
 Camel
 Capuchin
 Caracal
-Cat
+猫
 Chevrotain
 Chimpanzee
 Chinchilla
@@ -16943,45 +16939,45 @@ Wallaby
 Walrus
 Warthog
 Weasel
-Whale
-Wildebeest
-Wolf
-Wolverine
-Wombat
-Zebra'''
+鲸
+牛羚
+狼
+狼獾
+袋熊
+斑马'''
 
 # Newline separated list of bird-based ship names
 SHIP_NAME_BIRDS
-'''Albatross
-Canary
-Condor
-Cormorant
-Crow
-Dove
-Eagle
-Falcon
-Finch
-Flamingo
-Goose
-Heron
-Kestrel
-Kiwi
-Lark
-Osprey
-Ostrich
-Pelican
-Penguin
-Pheasant
-Pidgeon
-Quail
-Raven
-Rhea
-Sparrow
-Stork
-Swallow
-Swan
-Thrush
-Woodpecker'''
+'''信天翁
+金丝雀
+秃鹫
+鸬鹚
+乌鸦
+鸽子
+鹰
+隼
+雀
+火烈鸟
+鹅
+苍鹭
+茶隼
+鹬鸵
+云雀
+鹗
+鸵鸟
+鹈鹕
+企鹅
+野鸡
+野鸽
+鹌鹑
+渡鸦
+美洲鸵
+麻雀
+鹳
+燕子
+天鹅
+画眉
+啄木鸟'''
 
 # Newline separated list of ship-based ship names
 SHIP_NAME_FISH
@@ -17014,9 +17010,9 @@ Walleye'''
 
 # Newline separated list of plant-based ship names
 SHIP_NAME_FLORA
-'''Almond
-Apple
-Arbutus
+'''扁桃
+苹果
+杨梅
 Ash
 Aspen
 Avocado
@@ -17087,7 +17083,7 @@ Slate'''
 
 # Newline separated list of weather-based ship names
 SHIP_NAME_WEATHER
-'''Autumn
+'''秋天
 Avalanche
 Blizzard
 Breeze
@@ -17101,7 +17097,7 @@ Drought
 Dusk
 Earthquake
 Eclipse
-Fog
+浓雾
 Heatwave
 Hurricane
 Lavaflow
@@ -17117,9 +17113,9 @@ Sleet
 Snap
 Snowfall
 Solstice
-Spring
+春天
 Stormcloud
-Summer
+夏天
 Sunshine
 Thermal
 Thunder
@@ -17129,10 +17125,10 @@ Tsunami
 Twister
 Vortex
 Whirlwind
-Wind
-Winter'''
+风
+冬天'''
 
-# Newline separated list of star constellationbased ship names
+# Newline separated list of star constellation-based ship names
 SHIP_NAME_CONSTELLATIONS
 '''Andromeda
 Antlia
@@ -17555,8 +17551,8 @@ Vrishchika'''
 
 # Newline separated list of roman mythology-based ship names
 SHIP_NAME_ROMAN_MYTHOLOGY
-'''Aurora
-Auster
+'''奥罗拉
+奥斯特
 Bacchus
 Bellona
 Decima
@@ -18483,8 +18479,8 @@ Zeal'''
 
 # Newline separated list of emotion-based ship names
 SHIP_NAME_EMOTIONS
-'''Acceptance
-Agony
+'''容忍
+苦恼
 Ambivalance
 Anger
 Angst
